@@ -26,3 +26,4 @@ npm i -D less less-loader css-loader style-loader
 
 npm i -D postcss postcss-loader postcss-preset-env
 
+Ctrl+滚动滑轮即可调整字体大小
