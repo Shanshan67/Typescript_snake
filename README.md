@@ -1,4 +1,5 @@
 # Typescript_snake
+## npm start
 
 npm run server
 
