@@ -1,0 +1,23 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  //排除，与include相反
+  //"exclude": []
+  //编译器选项，如其名
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES6",//"system"可用于模块化的文件进行合并（outFile）
+    //"outDir": "./dist",//指定编译后文件所在的目录
+    //"outFile": "./dist/js",//所有js都在一个文件.js，用的不多，多用打包工具
+    //"allowJs": false,//是否编译js文件
+    //"checkJs": false,//是否检查js文件内容
+    //"removeComments": false,//是否移除注释
+    "noEmitOnError": true,//当有错误时不生成编译后的文件
+    "strict": true,//总开关
+    //"alwaysStrict": true,//把js转化成带'use strict'
+    //"noImplicitAny": true,//不允许隐式的any类型
+    //"noImplicitThis": true,
+    //"strictNullChecks": true,//严格的检查空值getelementbyid
+  }
+}

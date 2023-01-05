@@ -1,0 +1,1 @@
+let b: 'female' | 'male';
